@@ -1,0 +1,5 @@
+val dataset = sc.textFile("/data/olympictweets2016rio")
+val splitdataset = dataset.map(x => x.split(";")).map(x => if(x.length == 4 && x(2).length <= 140)x(2))
+val step1 = splitdataset.map(x => Math.ceil((x.toString().length)/5).toInt)
+val result = step1.map(x => (x,1)).reduceByKey(_+_)
+result.saveAsTextFile("length0002")
