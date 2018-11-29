@@ -1,0 +1,14 @@
+Job Name:	TwitterRio.jar
+User Name:	ds324
+Queue:	root.users.ds324
+State:	SUCCEEDED
+Uberized:	false
+Submitted:	Tue Jan 02 15:10:12 GMT 2018
+Started:	Tue Jan 02 15:10:20 GMT 2018
+Finished:	Tue Jan 02 15:13:44 GMT 2018
+Elapsed:	3mins, 24sec
+Diagnostics:
+Average Map Time	1mins, 47sec
+Average Shuffle Time	59sec
+Average Merge Time	0sec
+Average Reduce Time	1sec
