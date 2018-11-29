@@ -1,0 +1,1 @@
+hadoop-local jar dist/TwitterRio.jar TwitterRio sample_small.csv lc12345
